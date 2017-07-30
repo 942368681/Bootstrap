@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<style type="text/css">
+			div[class*='col-']{
+				background: #666;
+				border: 1px solid blue;
+				color: #FFF;
+				height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			偏移
+				offset		列偏移，只能往右偏（1~12）
+				push/pull	列排序
+		-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">111</div>
+				<div class="col-lg-4">222</div>
+				<div class="col-lg-4">333</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-lg-offset-4">444</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-2 col-lg-push-10">555</div>
+				<div class="col-lg-10 col-lg-pull-2">666</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

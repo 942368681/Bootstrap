@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<style type="text/css">
+			div[class*='col-']{
+				background: #666;
+				border: 1px solid blue;
+				color: #FFF;
+				height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			栅格
+				row	行
+				col 列（12份）
+				
+			组合模式
+				demo1
+		-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">col-lg-4</div>
+				<div class="col-lg-4">col-lg-4</div>
+				<div class="col-lg-4">col-lg-4</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">col-md-4</div>
+				<div class="col-md-4">col-md-4</div>
+				<div class="col-md-4">col-md-4</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">col-sm-4</div>
+				<div class="col-sm-4">col-sm-4</div>
+				<div class="col-sm-4">col-sm-4</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-4">col-xs-4</div>
+				<div class="col-xs-4">col-xs-4</div>
+				<div class="col-xs-4">col-xs-4</div>
+			</div>
+		</div>
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
